@@ -67,12 +67,41 @@
 </head>
 <body>
 
-    <header>
+    <style>
+    /* ... tus otros estilos ... */
+    .header-contact {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .header-contact a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.9em;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 5px 12px;
+        border-radius: 20px;
+        transition: background 0.3s;
+    }
+    .header-contact a:hover {
+        background: rgba(255, 255, 255, 0.4);
+    }
+</style>
+
+<header>
     <div class="container">
         <img src="IMG_20260311_101633.jpg" alt="Lesly QA" class="profile-img">
         
         <h1>Lesly</h1>
-        <p>QA Engineer | Software Tester</p>
+        <p style="font-size: 1.2em; margin-bottom: 10px;">QA Engineer | Software Tester</p>
+
+        <div class="header-contact">
+            <a href="mailto:kleinebere@gmail.com">✉️ kleinebere@gmail.com</a>
+            <a href="tel:+523327698153">📱 +52 33 2769 8153</a>
+            <a href="https://www.linkedin.com/in/lesly-aimee-coca-reyes-8bb073238" target="_blank">🔗 LinkedIn</a>
+        </div>
     </div>
 </header>
 
